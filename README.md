@@ -189,4 +189,4 @@ opendash
 
 **Tavo** ([@Tavo78ok](https://github.com/Tavo78ok))  
 Proyecto: **ArgOs Platinum Edition**  
-Licencia: GPL3.0
+Licencia: Mit
