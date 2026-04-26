@@ -18,6 +18,24 @@
 ## Capturas
 
 > Dashboard principal con ring meters animados, gráficos históricos en tiempo real y especificaciones del equipo.
+> 
+<img width="1440" height="900" alt="Captura de pantalla de 2026-04-26 00-22-56" src="https://github.com/user-attachments/assets/35906e91-48d6-4769-9604-f320a9ee4c05" />
+
+<img width="1440" height="900" alt="Captura de pantalla de 2026-04-26 00-23-06" src="https://github.com/user-attachments/assets/d0142720-a705-4ca4-abcb-fc36b32d06aa" />
+
+<img width="1440" height="900" alt="Captura de pantalla de 2026-04-26 00-23-16" src="https://github.com/user-attachments/assets/afa07c0f-127a-4d4c-a3a3-c0ad8ce3e2be" />
+
+<img width="1440" height="900" alt="Captura de pantalla de 2026-04-26 00-23-26" src="https://github.com/user-attachments/assets/add3bd0c-7b2f-4fc0-b9ad-b09b1d735afd" />
+
+<img width="1440" height="900" alt="Captura de pantalla de 2026-04-26 00-23-36" src="https://github.com/user-attachments/assets/dd145a27-ba6e-40f0-9fa4-bf84ef2a176f" />
+
+<img width="1440" height="900" alt="Captura de pantalla de 2026-04-26 00-23-46" src="https://github.com/user-attachments/assets/d04e75ac-d447-4cc1-b6a7-5066fab8175e" />
+
+<img width="1440" height="900" alt="Captura de pantalla de 2026-04-26 00-23-57" src="https://github.com/user-attachments/assets/3671e2e5-613e-4d17-8db8-c62352c6186a" />
+
+<img width="1440" height="900" alt="Captura de pantalla de 2026-04-26 00-24-08" src="https://github.com/user-attachments/assets/643ed6b8-ef93-41d2-8c4d-d53260212010" />
+
+
 
 ---
 
