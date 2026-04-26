@@ -91,7 +91,7 @@
 ### Opción 1 — Paquete .deb (recomendado)
 
 ```bash
-sudo dpkg -i opendash_2.0_all.deb
+sudo dpkg -i opendash_2.1.1_all.deb
 ```
 
 El script de post-instalación instala automáticamente todas las dependencias necesarias.
