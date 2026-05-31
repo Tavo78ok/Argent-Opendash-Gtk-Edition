@@ -23,6 +23,21 @@
 
 ---
 
+<img width="1440" height="900" alt="Captura de pantalla de 2026-05-31 19-00-48" src="https://github.com/user-attachments/assets/d759f050-abce-4ca2-9736-9749fd0985ba" />
+
+<img width="1440" height="900" alt="Captura de pantalla de 2026-05-31 19-01-02" src="https://github.com/user-attachments/assets/95b02bfc-febc-4ceb-a0e5-620bc6f209c3" />
+
+<img width="1440" height="900" alt="Captura de pantalla de 2026-05-31 19-01-13" src="https://github.com/user-attachments/assets/ff6b8e1e-300b-4cf5-ba0d-4ee6d7ca9f6c" />
+
+<img width="1440" height="900" alt="Captura de pantalla de 2026-05-31 19-01-31" src="https://github.com/user-attachments/assets/2aa3879f-ed6c-48c4-ab9b-6f56965bb7a1" />
+
+<img width="1440" height="900" alt="Captura de pantalla de 2026-05-31 19-01-48" src="https://github.com/user-attachments/assets/2716bee2-d624-49fd-b533-1a99d1926bc1" />
+
+<img width="1440" height="900" alt="Captura de pantalla de 2026-05-31 19-02-01" src="https://github.com/user-attachments/assets/71490b28-fa42-45dc-b8ca-9bf51599143a" />
+
+<img width="1440" height="900" alt="Captura de pantalla de 2026-05-31 19-02-13" src="https://github.com/user-attachments/assets/bc58f685-730a-4a53-9622-e20034bcfd07" />
+
+
 ## Funciones por pestaña
 
 ### 🖥️ Dashboard
