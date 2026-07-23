@@ -1,6 +1,6 @@
-## ArgOs OpenDash GTK4
+## ArgentOs OpenDash GTK4
 
-### Monitor, Optimizador y Gestor del Sistema — ArgOs Platinum Edition
+### Monitor, Optimizador y Gestor del Sistema — ArgentOs Platinum Edition
 
 ![GTK4](https://img.shields.io/badge/GTK-4.0-brightgreen?style=flat-square)
 ![Libadwaita](https://img.shields.io/badge/libadwaita-1.x-blue?style=flat-square)
@@ -13,7 +13,7 @@
 
 ## Descripción
 
-**ArgOs OpenDash GTK4** es un dashboard de rendimiento y gestión del sistema diseñado para **ArgOs Platinum Edition**. Construido con **GTK4 + libadwaita**, ofrece monitoreo en tiempo real con estética neon sobre fondo oscuro, gráficos históricos animados, gestión completa de paquetes APT y Flatpak, y herramientas de administración del sistema.
+**ArgentOs OpenDash GTK4** es un dashboard de rendimiento y gestión del sistema diseñado para **ArgOs Platinum Edition**. Construido con **GTK4 + libadwaita**, ofrece monitoreo en tiempo real con estética neon sobre fondo oscuro, gráficos históricos animados, gestión completa de paquetes APT y Flatpak, y herramientas de administración del sistema.
 
 ---
 
