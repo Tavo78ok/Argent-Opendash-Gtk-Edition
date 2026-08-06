@@ -15,7 +15,9 @@ Monitor, optimizador y gestor del sistema para Linux, escrito en **Python + GTK4
 ---
 
 
-<img width="1440" height="900" alt="Captura de pantalla de 2026-08-06 17-04-10" src="https://github.com/user-attachments/assets/05a83198-e235-459f-85db-114679acd75a" />
+<img width="1440" height="900" alt="Captura de pantalla de 2026-08-06 17-10-48" src="https://github.com/user-attachments/assets/f8886291-91e7-467d-a9af-bea0c7e72871" />
+
+---
 
 ## ✨ Características
 
