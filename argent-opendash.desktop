@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Argent Opendash Gtk4 libadwaita
+GenericName=Monitor del sistema
+Comment=Monitor, optimizador y gestor del sistema
+Exec=argent-opendash
+Icon=argent-opendash
+Terminal=false
+StartupNotify=true
+Categories=System;Monitor;Utility;GTK;
+Keywords=sistema;monitor;rendimiento;optimizacion;cpu;ram;disco;red;
