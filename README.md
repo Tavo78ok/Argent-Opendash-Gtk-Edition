@@ -1,6 +1,6 @@
 ## Argent OpenDash GTK4
 
-### Monitor, Optimizador y Gestor del Sistema — ArgentOs Platinum Edition
+### Monitor, Optimizador y Gestor del Sistema — Argent Opendash Platinum Edition
 
 ![GTK4](https://img.shields.io/badge/GTK-4.0-brightgreen?style=flat-square)
 ![Libadwaita](https://img.shields.io/badge/libadwaita-1.x-blue?style=flat-square)
