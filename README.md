@@ -130,6 +130,13 @@ Abrí **Argent Opendash Gtk4 libadwaita** desde el menú de aplicaciones, o ejec
 7. Entrada de la app
 
 ---
+## Dona para seguir este proyecto:
+
+*Mercado Pago:
+tavo.78.ok
+
+*Paypal:
+https://paypal.me/GustavoCuevas582
 
 ## 🤝 Contribuir
 
