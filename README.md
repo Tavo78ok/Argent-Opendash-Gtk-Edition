@@ -14,8 +14,19 @@ Monitor, optimizador y gestor del sistema para Linux, escrito en **Python + GTK4
 
 ---
 
+<img width="1440" height="900" alt="Captura de pantalla_2026-08-15_15-29-29" src="https://github.com/user-attachments/assets/d55f3a41-48ef-4dee-bc95-92fabd13fd70" />
 
-<img width="1440" height="900" alt="Captura de pantalla de 2026-08-06 17-10-48" src="https://github.com/user-attachments/assets/f8886291-91e7-467d-a9af-bea0c7e72871" />
+<img width="1440" height="900" alt="Captura de pantalla_2026-08-15_15-29-47" src="https://github.com/user-attachments/assets/d3cba9b0-0af0-414f-b2df-66bacb2019fc" />
+
+<img width="1440" height="900" alt="Captura de pantalla_2026-08-15_15-30-02" src="https://github.com/user-attachments/assets/db62beb3-9d47-4f61-a31c-1ee5b69c8a45" />
+
+<img width="1440" height="900" alt="Captura de pantalla_2026-08-15_15-31-32" src="https://github.com/user-attachments/assets/efd76bcc-a34f-46d8-9a3d-73a2c4b3142b" />
+
+<img width="1440" height="900" alt="Captura de pantalla_2026-08-15_15-30-17" src="https://github.com/user-attachments/assets/05c14f23-f1f5-44cc-bcd8-b5852782f789" />
+
+<img width="1440" height="900" alt="Captura de pantalla_2026-08-15_15-31-03" src="https://github.com/user-attachments/assets/c0c97899-16f1-46d7-a498-0ae0d04524ce" />
+
+<img width="1440" height="900" alt="Captura de pantalla_2026-08-15_15-31-18" src="https://github.com/user-attachments/assets/d56d1d16-d7f9-4291-b51b-4b0ff4344172" />
 
 ---
 
