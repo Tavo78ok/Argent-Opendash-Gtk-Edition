@@ -1,4 +1,4 @@
-## ArgentOs OpenDash GTK4
+## Argent OpenDash GTK4
 
 ### Monitor, Optimizador y Gestor del Sistema — ArgentOs Platinum Edition
 
