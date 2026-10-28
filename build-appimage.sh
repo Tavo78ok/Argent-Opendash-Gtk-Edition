@@ -1,6 +1,6 @@
 #!/bin/bash
 # ═══════════════════════════════════════════════════════════
-#  Argent Opendash Gtk4 libadwaita v3.1 — build-appimage.sh
+#  Argent Opendash Gtk4 libadwaita v3.1.3 — build-appimage.sh
 #  Uso: chmod +x build-appimage.sh && ./build-appimage.sh
 #
 #  Requiere en el sistema host:
