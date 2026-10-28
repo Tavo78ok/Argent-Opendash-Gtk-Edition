@@ -6,7 +6,7 @@
 set -e
 
 PKG="argent-opendash"
-VERSION="3.1"
+VERSION="3.1.3"
 ARCH="all"
 DEB="${PKG}_${VERSION}_${ARCH}.deb"
 DIR="deb_build/${PKG}_${VERSION}_${ARCH}"
