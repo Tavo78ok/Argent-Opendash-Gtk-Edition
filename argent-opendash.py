@@ -543,6 +543,9 @@ class OpenDashWindow(Adw.ApplicationWindow):
         self._sel_apt    = None
         self._sel_flat   = None
         self._services   = []
+        # MEJORA: flags para carga diferida (lazy) de pestañas pesadas
+        self._apt_loaded  = False
+        self._svcs_loaded = False
 
         self._br_timer = self._vol_timer = None
         self._br_pend  = self._vol_pend  = None
@@ -582,6 +585,8 @@ class OpenDashWindow(Adw.ApplicationWindow):
         hdr.pack_end(self._theme_btn); tb.add_top_bar(hdr)
 
         self._tabs = Adw.TabView()
+        # MEJORA: dispara carga lazy al cambiar de pestaña
+        self._tabs.connect('notify::selected-page', self._on_tab_switched)
         tab_bar = Adw.TabBar(); tab_bar.set_view(self._tabs)
         tb.add_top_bar(tab_bar)
 
@@ -609,6 +614,26 @@ class OpenDashWindow(Adw.ApplicationWindow):
     def _toast(self, msg):
         t = Adw.Toast.new(msg); t.set_timeout(3)
         self._toast_ov.add_toast(t)
+
+    # MEJORA: carga diferida de pestañas pesadas (APT / Servicios).
+    # Al abrir por primera vez, dispara el thread que llena la lista.
+    # Si ya se cargó una vez, no vuelve a disparar (el botón ↺ refresca).
+    def _on_tab_switched(self, tab_view, _pspec):
+        page = tab_view.get_selected_page()
+        if not page:
+            return
+        title = page.get_title() or ''
+        if title == 'Software' and not self._apt_loaded:
+            self._apt_loaded = True
+            self._apt_cnt.set_label('Cargando paquetes...')
+            ph = Gtk.ListBoxRow()
+            ph.set_child(lbl('⏳  Cargando lista de paquetes APT…', 'od-unit'))
+            self._apt_lb.append(ph)
+            run_bg(self._load_apt)
+        elif title == 'Servicios' and not self._svcs_loaded:
+            self._svcs_loaded = True
+            self._render_svcs()          # ya muestra "Cargando..." si está vacío
+            run_bg(self._load_svcs)
 
     # ── 6a CONSTRUCCIÓN DE PESTAÑAS ───────────────────────
     def _tab_dashboard(self):
@@ -1435,12 +1460,13 @@ class OpenDashWindow(Adw.ApplicationWindow):
                 pass
             time.sleep(3)
 
+    # MEJORA: arranque escalonado. Los hilos pesados (dpkg-query de 3000
+    # paquetes, systemctl list-units) ya NO se lanzan al inicio; se cargan
+    # al abrir su pestaña. Sólo queda sys-info + particiones + flatpak.
     def _init_heavy(self):
-        run_bg(self._load_sys_info)
-        run_bg(self._load_apt)
-        run_bg(self._load_flat)
-        run_bg(self._load_svcs)
-        run_bg(self._load_parts)
+        run_bg(self._load_sys_info)                                     # ~<1s
+        GLib.timeout_add_seconds(1,  lambda: (run_bg(self._load_parts), False)[1])
+        GLib.timeout_add_seconds(2,  lambda: (run_bg(self._load_flat),  False)[1])
         GLib.timeout_add_seconds(30, lambda: (run_bg(self._load_parts), True)[1])
         return False
 
