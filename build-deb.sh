@@ -12,6 +12,7 @@ DEB="${PKG}_${VERSION}_${ARCH}.deb"
 DIR="deb_build/${PKG}_${VERSION}_${ARCH}"
 BIN="argent-opendash"
 LIB="usr/lib/argent-opendash"
+APP_ID="io.github.Tavo78ok.ArgentOpendash"
 
 G='\033[0;32m'; C='\033[0;36m'; Y='\033[1;33m'; R='\033[0;31m'; N='\033[0m'
 
@@ -59,7 +60,8 @@ exec python3 /usr/lib/argent-opendash/argent-opendash.py "$@"
 EOF
 chmod 755 "${DIR}/usr/bin/${BIN}"
 
-cat > "${DIR}/usr/share/applications/argent-opendash.desktop" << DESKTOP
+# 🔥 El archivo .desktop se llama exactamente igual que el APP_ID
+cat > "${DIR}/usr/share/applications/${APP_ID}.desktop" << DESKTOP
 [Desktop Entry]
 Version=${VERSION}
 Type=Application
@@ -72,7 +74,7 @@ Terminal=false
 Categories=System;Monitor;
 Keywords=system;monitor;cpu;ram;temperatura;servicios;flatpak;
 StartupNotify=true
-StartupWMClass=argent-opendash
+StartupWMClass=${APP_ID}
 DESKTOP
 echo -e "${G}  ✓${N}"
 
@@ -119,9 +121,16 @@ done
 echo -e "${Y}▶ pystray (bandeja)...${N}"
 py_ok pystray && echo -e "${G}  ✓${N}" \
     || { pip_q pystray && echo -e "${G}  ✓${N}" || echo -e "${Y}  ⚠ pip3 install pystray${N}"; }
+
 chmod +x /usr/bin/argent-opendash /usr/lib/argent-opendash/argent-opendash.py
+
+# Refrescar sistema y panel XFCE
 gtk-update-icon-cache -f /usr/share/icons/hicolor/ 2>/dev/null || true
 update-desktop-database /usr/share/applications/ 2>/dev/null || true
+#if command -v xfce4-panel &>/dev/null; then
+#    xfce4-panel -r 2>/dev/null || true
+#fi
+
 echo -e "\n${G}╔══════════════════════════════════════════╗"
 echo -e "║  ✅ Argent Opendash Gtk4 v3.1 instalado  ║"
 echo -e "║  Terminal: argent-opendash                ║"
